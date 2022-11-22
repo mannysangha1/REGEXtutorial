@@ -29,7 +29,17 @@ $ matches at the end of the target string
 
 ### Quantifiers
 
+Quntifiers specifies examples of the previous element (character, a group or a character class) must be present to match to a input string.
+
+* = Matches the previous element zero or more times
+
++ = Matches the previous element one or more times.
+
+? = Matches the previous element zero or one time.
+
 ### Grouping Constructs
+
+
 
 ### Bracket Expressions
 
