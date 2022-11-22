@@ -39,9 +39,17 @@ Quntifiers specifies examples of the previous element (character, a group or a c
 
 ### Grouping Constructs
 
+Grouping Constructs set forth the subexpressions of a regular expression and capture substrings of an input string.
 
+- Match subexpression that's repeated in the input string
+
+- Apply quantifier to subexpression that has multiple regular expression language elements.
 
 ### Bracket Expressions
+
+Characters that have a special meaning. The regex engine is instructed to search for these character classes that contain brackets.
+
+- upper, lower and special characters in brackets are examples of this.
 
 ### Character Classes
 
