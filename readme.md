@@ -53,9 +53,19 @@ Characters that have a special meaning. The regex engine is instructed to search
 
 ### Character Classes
 
+Character classes in Regex are used to find certin characters from a group of specific characters.
+
+For example in our above Email Address REGX: //^([a-z0-9_.-]+)@([\da-z.-]+).([a-z.]{2,6})$
+
+/d is the only character class being used in the REGX but what /d is basically saying is that there is a range bewteen 0-9 meaning it will match any numeric character.
+
 ### The OR Operator
 
+Defined as the 'I' Element in REGX. Seems like we aren't using this.
+
 ### Flags
+
+
 
 ### Character Escapes
 
